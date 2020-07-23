@@ -8,12 +8,10 @@ Convert numbers to local currency
 ## CODE
 ```
 const convertNumbertoCurrency = (value, locale, style, format) => {
-    const currency = value.toLocaleString(locale, {
-      style: style,
-      currency: format,
-    });
-
-    return currency;
-  };
+  return value.toLocaleString(locale, {
+    style: style,
+    currency: format,
+  });
+};
   
 ```
