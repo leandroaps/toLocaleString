@@ -1,7 +1,8 @@
 # toLocaleString
 Convert numbers to local currency
 
-#USAGE
+# USAGE
+
 ``` convertNumbertoCurrency(102000.03, 'pt-BR', 'currency', 'BRL') ```
 
 ```
